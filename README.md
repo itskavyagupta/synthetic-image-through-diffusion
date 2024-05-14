@@ -2,7 +2,7 @@
 
 In the realm of medical diagnostics, particularly dermatology, the creation and utilization of extensive image datasets are paramount for the training and refinement of Artificial Intelligence (AI) driven diagnostic systems. Such systems are designed to assist healthcare professionals in quickly identifying a range of skin diseases, including malignant cancers, while simultaneously mitigating privacy concerns associated with the use of real patient data. However, the development of these datasets is frequently hindered by numerous challenges, such as significant data imbalance, variability in image quality, and stringent privacy regulations. To address these issues, our project proposes the innovative application of fine-tuning a pre-trained diffusion model to generate synthetic images. This approach not only promises to augment the available data but also to enhance the overall training process of machine learning models aimed at improving the diagnosis and treatment of skin cancer.
 
-# Methadology
+# Methodology
 We attempted to fine-tune a diffusion model (runwayml/stable-diffusion-v1-5) using the ISIC 2020 dataset, employing DreamBooth, a targeted training methodology designed to update diffusion models by training on a minimal set of images representing specific subjects or styles. This approach involves associating a unique prompt with representative images. [https://huggingface.co/docs/diffusers/en/training/dreambooth]
 
 In 'Derm-T2IM' paper, by Muhammad Ali Farooq et al., they developed a stable diffusion model for generating synthetic images of skin cancer which we tried to replicate. [https://arxiv.org/pdf/2401.05159]
