@@ -8,7 +8,7 @@ We attempted to fine-tune a diffusion model (runwayml/stable-diffusion-v1-5) usi
 In 'Derm-T2IM' paper, by Muhammad Ali Farooq et al., they developed a stable diffusion model for generating synthetic images of skin cancer which we tried to replicate. [https://arxiv.org/pdf/2401.05159]
 
 For the validation of synthetic data, we engaged in a comprehensive evaluation of the generated images sourced from the ”Derm-T2IM” study by Muhammad Ali Farooq et al.
-Our approach involved employing a skin lesion classifier based on the Vision Transformer (ViT) architecture to assess the authenticity and clinical relevance of these synthetic images. 
+Our approach involved employing a skin lesion classifier based on the Vision Transformer (ViT) architecture to assess the authenticity and clinical relevance of these synthetic images. This was the model used to generate the final synthetic images: [https://huggingface.co/MAli-Farooq/Derm-T2IM]
 
 # Result
 
